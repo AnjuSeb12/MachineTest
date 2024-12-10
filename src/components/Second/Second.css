@@ -1,0 +1,37 @@
+.button1food{
+    color: white;
+    border:1px solid white;
+
+}
+.button1food:hover{
+    border:2px solid #0796EF;
+    
+}
+.button2drinks{
+    color: white;
+    background-color: #0796EF;
+    margin-left: 10px;
+
+}
+.button3brunch{
+    color: white;
+    border:0.32px solid white;
+margin-left: 10px;}
+
+.button3brunch:hover{
+    border:2px solid #0796EF;
+   
+}
+    
+
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+  
+
+    
+}

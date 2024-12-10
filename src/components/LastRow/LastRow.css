@@ -1,0 +1,41 @@
+.lastRowWrapper{
+  position: absolute;
+
+
+  background-size: cover;
+  background-position: center;
+  height: 199px;
+  width: 1440px;
+  
+  top: 1100px;
+ 
+}
+.lastflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+ 
+}
+.lastflex1{
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 13px;
+
+
+}
+.lastflex2{
+  padding: 15px;
+  border: 2px solid white;
+  margin-left: 50px;
+  border-radius: 13px;
+
+}
+.lastflex3{
+  padding: 15px;
+  border: 2px solid white;
+  margin-left: 50px;
+  border-radius: 13px;
+
+}

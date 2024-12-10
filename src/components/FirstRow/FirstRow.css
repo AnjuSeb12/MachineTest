@@ -1,0 +1,40 @@
+.ptagdes{
+position: absolute;
+width: 681px;
+height: 44px;
+top: 177px;
+left: 380px;
+gap: 0px;
+opacity: 0px;
+color: white;
+font-family: Kelly Slab;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.82px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#BBBBBB;
+
+
+}
+.menufirst{
+position: absolute;
+width: 177px;
+height: 111px;
+top: 70px;
+left: 632px;
+gap: 0px;
+opacity: 0px;
+color:#FFFFFF;
+font-family: Oswald;
+font-size: 75px;
+font-weight: 600;
+line-height: 111.15px;
+letter-spacing: 0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}

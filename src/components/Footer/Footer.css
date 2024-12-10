@@ -1,0 +1,32 @@
+.footerWrapper{
+position: absolute;
+
+background-color: rgb(26, 24, 24);
+display:flex;
+flex-direction: row;
+width: 1440px;
+height: 45px;
+top: 1298px;
+gap: 0px;
+opacity: 0.1px;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+.footer1h{
+    color: white;
+    font-size: 10px;
+    
+
+}
+.footer2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+.footerh5{
+    font-size: 10px;
+}

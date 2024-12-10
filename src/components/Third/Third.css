@@ -1,0 +1,42 @@
+.headthird{
+position: absolute;
+width: 428px;
+height: 54px;
+top: 88px;
+left: 376px;
+gap: 0px;
+opacity: 0px;
+font-family: Oswald;
+font-size: 50px;
+font-weight: 600;
+line-height: 74.1px;
+letter-spacing: 0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.thirdWrapper{
+    position: absolute;
+    border: 3px solid white !important;
+    Width:1169px;
+    
+    
+    Height:416px;
+    
+    Top:119px;
+    
+    Left:150px;
+    
+   
+   
+}
+.foodthirdWrapper{
+    position: absolute;
+    Top:305px;
+    left: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
