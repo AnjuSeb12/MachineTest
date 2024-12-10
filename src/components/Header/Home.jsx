@@ -1,74 +1,61 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 
 const NavbarWithDesign = () => {
   return (
-    <div >
-      <div className="bg-black text-white font-oswald">
-      <header
-        style={{
-          
-          width: "1440px",
-          height: "100px",
-          margin: "0 auto",
-          position: "relative",
-          top: "-2px",
-          opacity: "1",
-          
-          
-        }}
-        className="flex justify-center items-center"
-      >
-        <Navbar expand="lg" className="w-full bg-black text-white">
-          <div
-            style={{ width: "1440px" }}
-            className="flex justify-between items-center mx-auto"
-          >
-            <Navbar.Brand href="#home" className="text-white text-lg">
-              React-Bootstrap
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse
-              id="basic-navbar-nav"
-              className="flex justify-end"
+    <div className="flex justify-center w-full">
+      <div className="w-[1440px] h-[100px] relative top-[-2px] opacity-100">
+        <Navbar expand="lg" className="bg-black h-full">
+          <Container>
+            
+            
+            <Navbar.Brand
+              href="#home"
+              className="text-white font-oswald text-lg font-bold"
             >
-              <Nav className="flex items-center space-x-6 text-base">
+              DEEP NET 
+
+            </Navbar.Brand>
+
+          
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+            
+            <Navbar.Collapse id="basic-navbar-nav" className="justify-end">
+              <Nav className="text-right gap-4">
                 <Nav.Link
                   href="#home"
-                  className="text-white hover:text-gray-400"
+                  className="text-white font-oswald text-sm font-normal leading-[23.71px] tracking-[0.03em] pr-4"
                 >
                   HOME
                 </Nav.Link>
                 <Nav.Link
                   href="#menu"
-                  className="text-white hover:text-gray-400"
+                  className="text-white font-oswald text-sm font-normal leading-[23.71px] tracking-[0.03em] pr-4"
                 >
                   MENU
                 </Nav.Link>
                 <Nav.Link
                   href="#reservation"
-                  className="text-white hover:text-gray-400"
+                  className="text-white font-oswald text-sm font-normal leading-[23.71px] tracking-[0.03em] pr-4"
                 >
                   MAKE A RESERVATION
                 </Nav.Link>
                 <Nav.Link
                   href="#contact"
-                  className="text-white hover:text-gray-400"
+                  className="text-white font-oswald text-sm font-normal leading-[23.71px] tracking-[0.03em] pr-4"
                 >
                   CONTACT US
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
-          </div>
+          </Container>
         </Navbar>
-      </header>
-      <Outlet />
-
+        <Outlet />
       </div>
-      
     </div>
   );
 };
 
-export default NavbarWithDesign
+export default NavbarWithDesign;
